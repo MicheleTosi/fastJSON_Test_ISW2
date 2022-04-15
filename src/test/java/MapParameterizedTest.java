@@ -64,6 +64,7 @@ public class MapParameterizedTest extends TestCase {
 
 	
 	private void configureTestOnJSONField() {
+		@SuppressWarnings({ "unchecked", "rawtypes" })
 		Map<String, String> map = new HashMap();
         map.put("Ariston", null);
         MapNullValue mapNullValue = new MapNullValue();
